@@ -1,7 +1,8 @@
 'use strict';
 const checkForSpam = function (message) {
     console.log(message);
-    if (message.toLowerCase().includes('spam')) { return true; } else if (message.toLowerCase().includes('sale')) { return true; };
+    if (message.toLowerCase().includes('spam')) { return true; }
+    else if (message.toLowerCase().includes('sale')) { return true; };
     return false;
 };
 
